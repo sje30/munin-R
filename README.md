@@ -29,7 +29,7 @@ hope to do at least two case studies in detail.  To help seed the
 conversation, here are some potential topics:
 
 1. Text mining of journal articles.
-2. Working with resources like orcid via R.
+2. Working with resources like orcid via R, e.g. https://ropensci.org/packages/literature/
 3. Examining possibilities with https://ropensci.org/
 4. Moving away from spreadsheets and into programming.
 5. Reproducible research documents.
