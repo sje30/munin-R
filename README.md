@@ -33,6 +33,7 @@ conversation, here are some potential topics:
 3. Examining possibilities with https://ropensci.org/
 4. Moving away from spreadsheets and into programming.
 5. Reproducible research documents.
+6. Parsing a 65Gb JSON file from crossref https://www.crossref.org/blog/free-public-data-file-of-112-million-crossref-records/
 
 To encourage discussion amongst the participants, we expect to limit
 the workshop to about 20 people.  We will not be recording the session.
