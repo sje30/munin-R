@@ -13,9 +13,10 @@ videos.
 
 We suggest that you will need to devote about 16 hours (4 hours/week)
 to work through the slides and try some examples for yourself.  We
-will have weekly catch-up sessions (beginning October 26th) when you
-can join the course hosts on a Zoom session to ask us questions about
-the material, or give other feedback.
+will have weekly drop-in sessions (October 26th, Nov 2th, Nov 9th,
+13:00-14:00 CET / 12:00-13:00 GMT) when you can join the course hosts
+on a Zoom session to ask us questions about the material, or discuss
+potential case studies.
 
 You won't need to learn R in its entirety (and you can ignore the
 slides marked "Advanced") but with a bit of background, you will get
@@ -27,7 +28,7 @@ At the workshop, we plan to work through some case studies of
 applications of R, particularly geared to those of interest in the
 scholarly communications community.  These case studies have not yet
 been prepared (as of October 15th 2020), so we are looking for suggestions
-from your on what types of problems you would like us to discuss.  We
+from you --  what types of problems would you like us to discuss?  We
 hope to do at least two case studies in detail.  To help seed the
 conversation, here are some potential topics:
 
