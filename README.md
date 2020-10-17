@@ -1,7 +1,6 @@
 # munin-R
 
 Welcome to the home page of the Munin "introduction to R" workshop.
-Please watch this [introductory video](...) to explain what is happening.
 
 # Course materials before the workshop
 
@@ -17,6 +16,10 @@ to work through the slides and try some examples for yourself.  We
 will have weekly catch-up sessions (beginning October 26th) when you
 can join the course hosts on a Zoom session to ask us questions about
 the material, or give other feedback.
+
+You won't need to learn R in its entirety (and you can ignore the
+slides marked "Advanced") but with a bit of background, you will get
+more out of the workshop.
 
 # Workshop
 
@@ -35,8 +38,16 @@ conversation, here are some potential topics:
 5. Reproducible research documents.
 6. Parsing a 65Gb JSON file from crossref https://www.crossref.org/blog/free-public-data-file-of-112-million-crossref-records/
 
+To give you an idea of what we think of might make good case studies,
+here are [some examples](https://github.com/sje30/neuRo) that were
+made from Neuroscience for a similar workshop.  The first Neuroscience
+example took about an hour to go through.
+
+
+
 To encourage discussion amongst the participants, we expect to limit
 the workshop to about 20 people.  We will not be recording the session.
+
 
 ## Format of the day
 
