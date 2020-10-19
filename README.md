@@ -52,14 +52,21 @@ the workshop to about 20 people.  We will not be recording the session.
 
 ## Format of the day
 
-We will meet over zoom 10-3pm (CET) (9-2pm GMT); we will have
-a morning session (10-11:30) and afternoon session (1:30-3pm).  During
-the lunch time break, we will keep the zoom session open to allow
-participants to informally ask questions and discuss.
+We will meet over zoom 10-3pm (CET); we will have a morning session
+(10-11:30) and afternoon session (1:30-3pm).  During the lunch time
+break, we will keep the zoom session open to allow participants to
+informally ask questions and discuss.
 
 
 # Workshop leads
 
 This workshop will be led by [Stephen Eglen](https://sje30.github.io)
 and [Daniel Nüst](https://nuest.staff.ifgi.de/).
+
+# Registration
+
+[Registration for the
+workshop](https://site.uit.no/muninconf/pre-conference-workshop) is
+now open.
+
 
