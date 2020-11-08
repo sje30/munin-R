@@ -6,11 +6,11 @@ researchers with ORCIDs we can curate a list of recent publications.
 
 
 ```{r setup, include = FALSE, cache = FALSE}
-require(DT)
-require(rorcid)
+library(DT)
+library(rorcid)
 library(RefManageR)
-require(xtable)
-require(knitr)
+library(xtable)
+library(knitr)
 BibOptions(check.entries = FALSE, style = "markdown", bib.style = "authoryear", cite.style = 'alphabetic', max.names=7)
 opts_chunk$set(cache=TRUE)
 ```
@@ -97,10 +97,10 @@ the three most recent papers from each author with an ORCID.
 
 ```{r, results="asis",warning=FALSE}
 dois = c()
-for (i in 1:length(grab.info)) {
-  ndois = length(grab.info[[i]]$dois)
-  if (ndois>0) {
-    dois = c(dois, grab.info[[i]]$dois[1:(min(3, ndois))])
+for (i in 1:nrow(df)) {
+  doi_n = df[i,"doi_n"]
+  if ( doi_n > 0 ) {
+    dois = c(dois, results[[i]]$dois[1:(min(2, doi_n))])
   }
 }           
 ##dois = grab.info[[4]]$dois[1:3]
