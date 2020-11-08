@@ -2,6 +2,10 @@
 
 To demonstrate how we can use R to interface with R records.
 
+
+Summary: from this [CSV](maths_orcid.csv) let us generate a [beautiful
+report](https://htmlpreview.github.io/?https://github.com/sje30/munin-R/blob/main/rorcid/orcid3.html).
+
 We go through three steps.
 
 
@@ -30,5 +34,5 @@ Move from analysing one person to a group of people.
 
 ## Step 3 - writing reports
 
-<orcid3.Rmd>
+[orcid3.Rmd](orcid3.Rmd).
 
