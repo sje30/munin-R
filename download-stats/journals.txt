@@ -32,3 +32,5 @@ Input Devices
 Rational Numbers
 Irrational Numbers
 Transcendental Numbers
+Northern Lights
+Whale Watching
