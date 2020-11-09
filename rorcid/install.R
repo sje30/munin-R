@@ -1,0 +1,5 @@
+install.packages("DT")
+install.packages("rorcid")
+install.packages("RefManageR")
+install.packages("xtable")
+install.packages("knitr")
