@@ -32,6 +32,8 @@ opts_chunk$set(cache=TRUE)
 This is a bit rough around the edges, but should provide for a useful
 case-study.  You will need to install several packages - see file `install.R`.
 
+# Publication metadata analysis with R
+
 ## Who do we have in the database?
 
 We start by reading in the database of ORCID identifiers.
@@ -152,3 +154,21 @@ outside of the R session.
 ```{r compiling, include = TRUE, eval = FALSE}
 rmarkdown::render("orcid3.Rmd")
 ```
+
+# Colophon
+
+It is good practice to [capture the used the environment](https://twitter.com/benmarwick/status/1263291191606444033)
+at the bottom  of a document.
+
+This report was generated on `r Sys.time()` using the following 
+computational environment and dependencies: 
+
+```{r colophon, cache = FALSE}
+# Based on https://github.com/benmarwick/rrtools/blob/master/inst/templates/paper.Rmd
+if ("devtools" %in% installed.packages()) {
+  devtools::session_info() # includes installation source of packages
+} else {
+  sessionInfo()
+}
+```
+
