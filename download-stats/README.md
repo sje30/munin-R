@@ -8,6 +8,11 @@ Simulating data is a good idea; it allows you to test your analysis
 methods where you can add in certain effects, and then test if your
 analysis methods detect them.
 
+
+## Dependencies.
+
+None; should work in base R.
+
 # Part one: simulate some download statistics for journals
 
 In this part, we will work through [make_data.R](make_data.R).  All
