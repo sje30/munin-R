@@ -1,16 +1,16 @@
 ## Example taken from https://github.com/henrikkarlstrom/rcristin
 
 ## You will need the devtools package.
-devtools::install_github("henrikkarlstrom/rcristin")
-
-
-
-library(rcristin)
-## get Cristin results from NTNU's University Library
-ntnuub <- get_cristin_results(unit = "194.14.30.0", published_since = 2015)
+## devtools::install_github("henrikkarlstrom/rcristin")
 
 library(ggplot2)
 library(forcats)
+library(rcristin)
+
+
+## get Cristin results from NTNU's University Library
+ntnuub <- get_cristin_results(unit = "194.14.30.0", published_since = 2015)
+
 
 # Graphing 
 ntnuub$open_access <- forcats::fct_rev(factor(ntnuub$results$open_access))
