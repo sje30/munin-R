@@ -36,7 +36,11 @@ before looking at our partial answers.
 
 # Exercises/extensions
 
-1. Assign each journal to a publisher.
+1. Assign each journal to a publisher.  What is the annual cost per publisher?
 2. Assign cost to each journal, and have a budget.  what is best way
    to spend your budget if you can't afford to get everything?
 3. Add your own journal titles, or vary how download statistics are generated.
+4. Can you make the subscription price proportional to the number
+   of words in the journal title?
+5. (open-ended) Investigate the efficiency of a 'big-deal': under what scenarios
+   might you be willing to accept a big deal?
