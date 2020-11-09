@@ -23,25 +23,14 @@ more out of the workshop.
 
 # Workshop
 
-At the workshop, we plan to work through some case studies of
-applications of R, particularly geared to those of interest in the
-scholarly communications community.  These case studies have not yet
-been prepared (as of October 15th 2020), so we are looking for suggestions
-from you --  what types of problems would you like us to discuss?  We
-hope to do at least two case studies in detail.  To help seed the
-conversation, here are some potential topics:
 
-1. Text mining of journal articles.
-2. Working with resources like orcid via R, e.g. https://ropensci.org/packages/literature/
-3. Examining possibilities with https://ropensci.org/
-4. Moving away from spreadsheets and into programming.
-5. Reproducible research documents.
-6. Parsing a 65Gb JSON file from crossref https://www.crossref.org/blog/free-public-data-file-of-112-million-crossref-records/
+## Case studies
 
-To give you an idea of what we think of might make good case studies,
-here are [some examples](https://github.com/sje30/neuRo) that were
-made from Neuroscience for a similar workshop.  The first Neuroscience
-example took about an hour to go through.
+At the workshop, we will work through two case studies that should be
+of broad interest to the scholarly comms world.
+
+1. Simulating and analysing journal download statistics.
+2. Interfacing with ORCID (and possibly CRISTIN) using R.
 
 To encourage discussion amongst the participants, we expect to limit
 the workshop to about 20 people.  We will not be recording the session.
