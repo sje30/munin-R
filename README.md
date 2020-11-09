@@ -44,15 +44,7 @@ participants to informally ask questions and discuss.
 
 ## Drop-in sessions
 
-The following drop-in sessions are schedules for this course:
-
-- October 26th, 13:00-14:00 CET / 12:00-13:00 GMT
-- Nov 2th, 13:00-14:00 CET / 12:00-13:00 GMT
-- Nov 9th, 13:00-14:00 CET / 12:00-13:00 GMT
-
-You are welcome to join or leave at any time.
-If there are any specific questiosn to discuss, we will use the following
-online meetings as breakout rooms 
+Three drop-in sessions were held on Monday lunchtimes.  These have now finished.
 
 - Room one: https://meet.jit.si/munin-R-1
 - Room two: https://meet.jit.si/munin-R-2
