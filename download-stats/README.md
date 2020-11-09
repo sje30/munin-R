@@ -19,13 +19,18 @@ real](http://cell.com/pb/assets/raw/journals/research/cell/cell-timeline-40/spoo
 
 # Part two: analyse the download statistics for journals
 
-Now that we have some simulated data, let's analyse it.
+Now that we have some simulated data, let's analyse it.  Try these
+before looking at our partial answers.
 
 1. Draw a graph to plot the total number of downloads per month; can
    you see the effects we built in?
-2. Can you predict which are the "prestige" journals, without knowing
+2. Which journal had the most downloads in one month?  (Ditto for the
+   least downloads in one month.)
+3. Which are the top 10 journals by download statistics over the whole
+   year?  Bottom 10?
+4. Can you predict which are the "prestige" journals, without knowing
    their names?
-3. Which are the top 10 journals by stats?  Bottom 10? 
+
 
 
 
