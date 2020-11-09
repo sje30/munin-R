@@ -1,5 +1,10 @@
 ---
 title: "Rorcid databasing"
+abstract: |
+  Case study from the pre-conference workshop "Introduction to R" at the 2020
+  Munin Conference on Scholarly Publishing.
+  
+  https://site.uit.no/muninconf/pre-conference-workshop/
 output:
   html_document:
     toc: true
@@ -28,10 +33,11 @@ opts_chunk$set(cache=TRUE)
 This is a bit rough around the edges, but should provide for a useful
 case-study.  You will need to install several packages - see file `install.R`.
 
+## Who do we have in the database?
 
-### Who do we have in the data base?
-
-We start by reading in the database:
+We start by reading in the database of ORCID identifiers.
+You are welcome to use your own CSV file here, for example with ORCIDs
+from your own institution. The only mandatory column is `orcid`.
 
 ```{r read_data}
 maths_csv =  read.csv("maths_orcid.csv", comment.char='#')
@@ -49,6 +55,12 @@ is the result of some inline R computation.)
 
 Starting with just the ORCIDs, we can get some information such as
 names, and DOIs associated with each user.
+
+When you run the following code chunk for the first time, the 
+package `rorcid` will open a browser windows so you can log in on
+the ORCID website and you can query the ORCID API as an 
+authenticated user. You can manually trigger this by calling
+`rorcid::orcid_auth()`.
 
 ```{r read_records}
 get_orcid_info <- function(orcid_num) {
@@ -81,7 +93,6 @@ doi_n <- sapply(results, function(x) x$num_dois)
 results_df <- data.frame(orcid=orcid, given=given, family=family, doi_n=doi_n)
 results_df
 ```
-
 
 ## Distribution of DOIs associated with each user.
 
@@ -121,15 +132,22 @@ print(b)
 
 # Discussion
 
-
 We make heavy use of knitr; see
 e.g. <https://yihui.org/knitr/options/> for chunk options.  Things to
 discuss:
 
 - The cache facility is awesome.
-- How to extend, use your own database of orcids?
+- How to extend?
+  - Use your own database of ORCIDs?
+  - Scrape ORCIDs from Munin website?
 
 # Compiling this document
+
+Because we rely on interactive authentication with ORCID, the "Knit" button
+in RStudio will not work, because every time you knit an R Markdown
+document, RStudio will start a clean empty R session.  See 
+`?rorcid::orcid_auth` on how to store the authentication information 
+outside of the R session.
 
 ```{r compiling, include = TRUE, eval = FALSE}
 rmarkdown::render("orcid3.Rmd")
