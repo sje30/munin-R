@@ -60,8 +60,7 @@ that is only a few lines of code.
 
 ## Participant chat
 
-The drop-in sessions are the main event to ask the workshop leads your
-questions. If you want to discuss amongst yourself, feel free to join the
+If you want to discuss amongst yourself, feel free to join the
 following Gitter chat room:
 
 [![Gitter](https://badges.gitter.im/munin-R/community.svg)](https://gitter.im/munin-R/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
