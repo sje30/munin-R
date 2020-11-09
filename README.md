@@ -71,6 +71,18 @@ of these platforms if you prefer not to disclose your name.
 Please see the [Gitter.im Terms of 
 Service](https://element.io/terms-of-service).
 
+## Preparation
+
+Before the day of the workshop, it would be helpful, although not
+essential, if you note:
+
+1. [Register](https://orcid.org/register) for an ORCID account if
+   you don't already have one.  Ensure you can login to orcid.
+2. You may wish to bring along a CSV of ORCID entries of a few researchers
+   in your institution that you wish to analyse.
+3. We plan to use some external R packages.  Installing them may save
+   you some time on the day -- see [rorcid/install.R](rorcid/install.R).
+   
 # Workshop leads
 
 This workshop will be led by [Stephen Eglen](https://sje30.github.io),
