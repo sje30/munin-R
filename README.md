@@ -29,8 +29,8 @@ more out of the workshop.
 At the workshop, we will work through two case studies that should be
 of broad interest to the scholarly comms world.
 
-1. Simulating and analysing journal download statistics.
-2. Interfacing with ORCID (and possibly CRISTIN) using R.
+1. [download-stats](download-stats/): Simulating and analysing journal download statistics.
+2. [rorcid](rorcid/): Interfacing with ORCID (and possibly CRISTIN) using R.
 
 To encourage discussion amongst the participants, we expect to limit
 the workshop to about 20 people.  We will not be recording the session.
