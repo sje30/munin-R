@@ -1,5 +1,6 @@
 install.packages("DT")
 install.packages("rorcid")
-install.packages("RefManageR")
+install.packages("remotes")
+remotes::install_github("ropensci/RefManageR")
 install.packages("xtable")
 install.packages("knitr")
