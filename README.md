@@ -42,12 +42,17 @@ morning session (10-11:30) and afternoon session (1:30-3pm).  During
 the lunch time break, we will keep the zoom session open to allow
 participants to informally ask questions and discuss.
 
-## Drop-in sessions
 
-Three drop-in sessions were held on Monday lunchtimes.  These have now finished.
+## Meeting and breakout rooms
 
-- Room one: https://meet.jit.si/munin-R-1
-- Room two: https://meet.jit.si/munin-R-2
+The main meeting will be hosted on zoom.  If 1:1 meetings are required
+for debugging, we will use a free video conference system here (but
+warning: these are not private 1:1 rooms, anyone can join without a
+password).
+
+- https://meet.jit.si/munin-R-Anna
+- https://meet.jit.si/munin-R-Daniel
+- https://meet.jit.si/munin-R-Stephen
 
 See the [privacy policy](https://jitsi.org/meet-jit-si-privacy/) and 
 [Terms of Service](https://jitsi.org/meet-jit-si-terms-of-service/) for 
@@ -80,8 +85,14 @@ essential, if you note:
    you don't already have one.  Ensure you can login to orcid.
 2. You may wish to bring along a CSV of ORCID entries of a few researchers
    in your institution that you wish to analyse.
-3. We plan to use some external R packages.  Installing them may save
-   you some time on the day -- see [rorcid/install.R](rorcid/install.R).
+3. Download and unzip this repository to your local machine (perhaps
+   after Friday, as we might still be editing it today).  You can
+   download this repository  with this
+   [link](https://github.com/sje30/munin-R/archive/main.zip).
+4. We  will use some external R packages.  Installing them may save
+   you some time on the day -- see
+   [rorcid/install.R](rorcid/install.R)
+   [rcristin/install.R](rcristin/install.R).
    
 # Workshop leads
 
