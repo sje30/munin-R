@@ -22,10 +22,8 @@ researchers with ORCIDs we can curate a list of recent publications.
 ```{r setup, include = FALSE, cache = FALSE}
 library("DT")
 library("rorcid")
-library("RefManageR")
 library("xtable")
 library("knitr")
-BibOptions(check.entries = FALSE, style = "markdown", bib.style = "authoryear", cite.style = 'alphabetic', max.names=7)
 opts_chunk$set(cache=TRUE)
 ```
 
@@ -119,7 +117,18 @@ DT::datatable(df, escape = 1, options = list(pageLength = 25))
 Here we automatically generate a "Recent papers" section, by finding
 the three most recent papers from each author with an ORCID.
 
-```{r recent_papers, results="asis",warning=FALSE}
+This section is available only if you have the "RefManageR" package
+installed.  If you were unable to install it, the following section
+will not include any references.
+
+```{r check-RefManageR}
+refmanager_available <- require(RefManageR)
+```
+
+
+```{r recent_papers,results="asis",warning=FALSE,eval=refmanager_available}
+BibOptions(check.entries = FALSE, style = "markdown", bib.style = "authoryear", cite.style = 'alphabetic', max.names=7)
+
 dois = c() # the vector of dois
 for (i in 1:nrow(df)) {
   doi_n = df[i,"doi_n"]
