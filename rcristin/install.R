@@ -1,8 +1,8 @@
-require(remotes) || install.package("remotes")
-require(knitr)   || install.package("knitr")
-require(dplyr)   || install.package("dplyr")
-require(ggplot2) || install.package("ggplot2")
-require(forcats) || install.package("forcats")
+require(remotes) || install.packages("remotes")
+require(knitr)   || install.packages("knitr")
+require(dplyr)   || install.packages("dplyr")
+require(ggplot2) || install.packages("ggplot2")
+require(forcats) || install.packages("forcats")
 
 remotes::install_github("henrikkarlstrom/rcristin")
 
