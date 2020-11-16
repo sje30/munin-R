@@ -113,3 +113,8 @@ now closed.
 # Binder for the brave
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sje30/munin-R/HEAD?urlpath=rstudio)
+
+(This binder instance may be useful for the rcristin demo, but
+probably not for rorcid, as the latter requires authentication over a
+web-browser.)
+
