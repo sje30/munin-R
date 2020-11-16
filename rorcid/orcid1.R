@@ -17,6 +17,6 @@ browse(as.orcid(me))
 orcid(query = "Daniel Nüst geoinformatics")
 
 ## bibtex file may take a minute or two to create.
-my_dois <- rorcid::identifiers(rorcid::works("0000-0002-0337-5997"))
+my_dois <- rorcid::identifiers( rorcid::works( me ) )
 pubs <- rcrossref::cr_cn(dois = my_dois, format = "bibtex")
 invisible(lapply(pubs, write, "pubs.bib", append=TRUE))
