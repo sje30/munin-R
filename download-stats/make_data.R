@@ -3,7 +3,7 @@
 
 
 
-## ---- Create some journal names
+## Create some journal names ###########################################
 
 premier_jnl_names = readLines('premier_journals.txt')
 jnl_names = readLines('journals.txt')
@@ -40,7 +40,7 @@ sample(journals, 10)
 ## sort them into alphabetical order
 journals = sort(journals)
 
-## ---- Certain papers are more popular than others.
+## Certain papers are more popular than others #########################
 
 ## Let's for now make the model that papers in premier journals
 ## are highly accessed, and that a certain fraction of papers,
@@ -70,7 +70,7 @@ for (j in 1:n_journals) {
 hist(expected_downloads)
 
 
-## ---- Generate download statistics for each month of the year.
+## Generate download statistics for each month of the year #############
 
 downloads = matrix(0, n_journals, 12)
 
@@ -93,7 +93,7 @@ for (month in 1:12) {
 }
 
 
-## ---- Export our data now.
+## Export our data now #################################################
 
 rownames(downloads) <- journals
 colnames(downloads) <- c("Jan", "Feb", "Mar", "Apr", "May", "Jun",
