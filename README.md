@@ -112,4 +112,4 @@ now closed.
 
 # Binder for the brave
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sje30/munin-R/master?urlpath=rstudio)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sje30/munin-R/HEAD?urlpath=rstudio)
