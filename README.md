@@ -2,6 +2,8 @@
 
 Welcome to the home page of the Munin "introduction to R" workshop.
 
+![Colourful version of the R logo](R_logo.jpg)
+
 # Course materials before the workshop
 
 In preparation for the workshop, we recommend that you learn some R.
