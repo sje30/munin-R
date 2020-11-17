@@ -53,7 +53,7 @@ n_stellar_papers = 10 * n_journals
 
 stellar_papers = sample( n_journals, n_stellar_papers, replace=TRUE)
 
-expected_downloads = rep(n_journals, 0)
+expected_downloads = rep(0, n_journals)
 
 for (j in 1:n_journals) {
   journal_name = journals[j]
