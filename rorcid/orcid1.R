@@ -14,9 +14,9 @@ as.orcid(me)
 browse(as.orcid(me))
 
 ## Let's try to find Daniel.
-orcid(query = "Daniel Nüst geoinformatics")
+orcid(query = "Daniel Nuest geoinformatics")
 
 ## bibtex file may take a minute or two to create.
 my_dois <- rorcid::identifiers( rorcid::works( me ) )
-pubs <- rcrossref::cr_cn(dois = my_dois, format = "bibtex")
+pubs <- rcrossref::cr_cn(dois = my_dois[1:3], format = "bibtex")
 invisible(lapply(pubs, write, "pubs.bib", append=TRUE))
